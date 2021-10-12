@@ -1,3 +1,10 @@
+'''
+Este programa agarra 2 pdfs, y une las páginas que el usuario le pasa para tener 1 solo pdf final
+con la combinación de las páginas de los 2 pdfs.
+
+(nótese que cada pdf puede empezar en cualquier página y abarcar el rango que el usuario quiera)
+'''
+
 import PyPDF2,os
 
 direccionPDF1 = input('Ingrese dirección del primer PDF: ')
